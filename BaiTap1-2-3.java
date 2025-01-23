@@ -45,7 +45,7 @@ public class Main {
         // Nhập tọa độ y của tâm đường tròn
         System.out.println("Nhập tọa độ y của điểm M: ");
         float My = Float.parseFloat(sc.nextLine());
-        int &ba2 = 1;
+        
         // so sánh khoảng cách
         double d = Math.sqrt((Mx - x)*(Mx - x) + (My - y)*(My - y));
 
